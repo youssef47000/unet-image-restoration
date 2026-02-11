@@ -1,6 +1,6 @@
 # Image Restoration via Deep Image Prior (U-Net) 
 
-Ce projet implémente une architecture*U-Net pour réaliser des tâches de restauration d'image (Inpainting, Débruitage) **sans aucun jeu de données d'entraînement externe**.
+Ce projet implémente une architecture U-Net pour réaliser des tâches de restauration d'image (Inpainting, Débruitage) **sans aucun jeu de données d'entraînement externe**.
 
 Il repose sur le concept de Deep Image Prior (DIP) : l'architecture du réseau de convolution elle-même agit comme une régularisation ("prieur"). Le réseau apprend plus vite à générer une image naturelle cohérente que du bruit aléatoire, ce qui permet de restaurer l'image avant d'apprendre les défauts.
 
